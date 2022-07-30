@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 50%;
+    height: auto;
+    margin: 200px auto;
+    /* background-color: blue; */
+    border: 2px solid black;
+    overflow: hidden;
+}
+h3 {
+ text-align: center;
+ margin: 20px;
+}
+.information table {
+    margin: 10px auto;
+}
+
+
+button {
+    float: right;
+    padding: 10px;
+    background-color: rgb(112, 97, 97);
+    margin: 20px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: yellow;
+    font-family: sans-serif;
+}
